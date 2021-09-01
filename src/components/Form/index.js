@@ -122,7 +122,8 @@ export default function index() {
                       Date of birth <span className="text-danger">*</span>
                     </label>
                     <br />
-                    <input type="date" placeholder="DD" className="form-control" />
+                    {/* - use date picker */}
+                    <input type="date" placeholder="DD" className="form-control date-picker" />
                   </div>
                 </div>
                 <div className="col-sm">
